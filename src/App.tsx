@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TopBanner from './pichead';
+import MovieList from './movies';
+import Home from './home';
 
+class Welcome extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Joel Hilton's Movie Collection</h1>
+      </div>
+    );
+  }
+}
+//Main function of program with components
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Welcome />
     </div>
   );
 }
