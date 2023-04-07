@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './layout';
 import Podcasts from './podcasts';
-import Movies from './movies';
+import Movies from './movies/movies';
 import Home from './home';
 import Welcome from './App';
 //Route to multiple pages

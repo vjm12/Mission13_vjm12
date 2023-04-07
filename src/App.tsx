@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TopBanner from './pichead';
-import MovieList from './movies';
+import MovieList from './movies/movies';
 import Home from './home';
 
 class Welcome extends React.Component {
